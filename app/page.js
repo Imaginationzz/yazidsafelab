@@ -15,6 +15,7 @@ export default function Home() {
         { slug: 'linux-essentials', title: 'Linux Essentials', difficulty: 'Beginner', icon: '🐧' },
         { slug: 'cyber-commands', title: 'Cybersecurity Commands', difficulty: 'Beginner', icon: '⚡' },
         { slug: 'cryptography', title: 'Cryptography', difficulty: 'Intermediate', icon: '🔐' },
+        { slug: 'threat-intel-tools', title: 'Threat Intel Tools', difficulty: 'Beginner', icon: '🔍' },
     ];
 
     return (
@@ -24,7 +25,7 @@ export default function Home() {
                     Master <span className="text-primary">Defensive</span> Coding
                 </h1>
                 <p className="text-muted" style={{ fontSize: '1.1rem', maxWidth: '700px', margin: '0 auto' }}>
-                    Explore 12 critical security modules. Identify vulnerabilities,
+                    Explore 14 critical security modules. Identify vulnerabilities,
                     refresh scenarios for variety, and implement secure patterns to patch them.
                 </p>
             </section>
